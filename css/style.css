@@ -315,6 +315,17 @@
   transform: scale(1.1);
 }
 
+.btn-secondary {
+  background-color: #ab7442; /* Change color */
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #0056b3;
+}
+
 /*** Feature ***/
 @media (min-width: 992px) {
   .container.feature {
